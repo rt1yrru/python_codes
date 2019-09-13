@@ -1,0 +1,26 @@
+import platform
+import sys
+import os
+def af():
+	print(sys.platform)
+	print(sys.version_info)
+	print(sys.exc_info())
+	print("os.name                      ",  os.name)
+	print("sys.platform                 ",  sys.platform)
+	print("platform.system()            ",  platform.system())
+	# print("sysconfig.get_platform()     ",  sysconfig.get_platform())
+	print("platform.machine()           ",  platform.machine())
+	print("platform.architecture()      ",  platform.architecture())
+	#print(sys.stdout)
+	print(platform.python_version())
+	print(platform.python_implementation())
+	#print(platform.platform_name())
+	print(platform.system())
+	print(platform.release())
+	print(os.name)
+	print(platform.platform())
+	print(platform.machine())
+	print(platform.uname())
+	print(platform.version())
+	print(platform.mac_ver())
+	print(' System cores : '+str(os.cpu_count()))

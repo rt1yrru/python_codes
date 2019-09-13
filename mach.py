@@ -23,4 +23,4 @@ def af():
 	print(platform.uname())
 	print(platform.version())
 	print(platform.mac_ver())
-	print(' System cores : '+str(os.cpu_count()))
+	#print(' System cores : '+str(os.cpu_count()))

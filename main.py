@@ -4,8 +4,10 @@ print()
 print()
 import mach
 mach.af()
-import piper
-piper.a_pip('list')
+import pip_list
+pip_list.display()
+# import piper
+# piper.a_pip('list')
 # import piper_2
 # _package='netifaces'
 # piper_2.pip_auto_install(_package)

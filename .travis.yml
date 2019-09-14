@@ -35,8 +35,7 @@ matrix:
     - python: nightly
 
 install:
-- true # use this to skip the install step or add any commands required to install your project dependencies
-
+- pip install netifaces
 script:
 - python main.py
 

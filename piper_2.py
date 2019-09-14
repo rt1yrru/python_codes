@@ -9,7 +9,7 @@ def pip_auto_install(_package):
         print("Failed to import pip. Please ensure that pip is installed.")
         print("For further instructions see "
               "https://pip.pypa.io/en/stable/installing/")
-        sys.exit(-1)
+        #sys.exit(-1)
     except Exception as err:
         print("Failed to install pip requirements: " + err.message)
-        sys.exit(-1)
+        #sys.exit(-1)

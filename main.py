@@ -4,3 +4,5 @@ print()
 print()
 import mach
 mach.af()
+import piper
+piper.a_pip('list')
